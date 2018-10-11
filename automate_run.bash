@@ -1,3 +1,6 @@
+#This is the beginning of the file.
+#Bananarama.
+
 #Define variables
 RESULT_DIR=/c/Users/carst/Documents/data-shell/results
 
@@ -10,7 +13,7 @@ do
 wc -l $filename | sort -n | head -n 1 >>$RESULTS_DIR/length.txt
 done
 
-cat  $RESULTS_DIR/length.txt
+#cat  $RESULTS_DIR/length.txt
 
 
 #Insert comment to check if Git tracking works.
